@@ -21,21 +21,21 @@ Fazer um código com 3 valores e encontrar o maior valor.<br/>
 
 ```
 int a = 26;
-        int b = 100;
-        int c = 30;
-        int maior = 0;
+int b = 100;
+int c = 30;
+int maior = 0;
 
-        if (a > b)
-        {
-            maior = a;
-        } else
-        {
-            maior = b;
-        }
-        if (c > maior)
-        {
-            maior = c;
-        }
+if (a > b)
+{
+    maior = a;
+} else
+{
+    maior = b;
+}
+if (c > maior)
+{
+    maior = c;
+}
 
-        Debug.Log(maior);
+Debug.Log(maior);
 ```
