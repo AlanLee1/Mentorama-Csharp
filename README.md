@@ -42,7 +42,7 @@ Debug.Log(maior);
 
 ## Módulo 3
 
-Segunda atividade do módulo:<br/>
+Terceira atividade do módulo:<br/>
 Criar um objeto com vida.<br/>
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module3)
 
