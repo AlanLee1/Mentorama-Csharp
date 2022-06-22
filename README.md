@@ -7,7 +7,7 @@ Acessar os arquivos das atividades na pasta: **Files**
 
 ## Módulo 1
 
-Primeira atividade do curso:<br/>
+Primeira atividade do módulo:<br/>
 Fazer um fluxograma de uma atividade.<br/>
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module1)
 
@@ -15,7 +15,7 @@ Fazer um fluxograma de uma atividade.<br/>
 
 ## Módulo 2
 
-Primeira atividade do curso:<br/>
+Segunda atividade do módulo:<br/>
 Fazer um código com 3 valores e encontrar o maior valor.<br/>
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module2)
 
@@ -42,7 +42,7 @@ Debug.Log(maior);
 
 ## Módulo 3
 
-Primeira atividade do curso:<br/>
+Segunda atividade do módulo:<br/>
 Criar um objeto com vida.<br/>
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module3)
 
