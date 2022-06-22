@@ -39,3 +39,11 @@ if (c > maior)
 
 Debug.Log(maior);
 ```
+
+## Módulo 3
+
+Primeira atividade do curso:<br/>
+Criar um objeto com vida.<br/>
+[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module3)
+
+<img src="/Files/Module3/Game.gif" alt="project"/>
