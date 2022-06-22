@@ -47,3 +47,11 @@ Criar um objeto com vida.<br/>
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module3)
 
 <img src="/Files/Module3/Game.gif" alt="project"/>
+
+## Módulo 4
+
+Quarta atividade do módulo:<br/>
+Criar uma matriz onde suas bordas possuam uma altura fixa, e o meio com altura variável.<br/>
+[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module4)
+
+<img src="/Files/Module4/Game.gif" alt="project"/>
