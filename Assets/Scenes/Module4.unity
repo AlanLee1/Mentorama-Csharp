@@ -252,6 +252,7 @@ GameObject:
   - component: {fileID: 1248960370}
   - component: {fileID: 1248960371}
   - component: {fileID: 1248960372}
+  - component: {fileID: 1248960373}
   m_Layer: 0
   m_Name: Script
   m_TagString: Untagged
@@ -281,7 +282,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248960368}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0519366e503dc6479034c4a15659bbd, type: 3}
   m_Name: 
@@ -303,6 +304,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 042e9da632dff854caa0f65a3fa6a6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1248960373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248960368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1793af7c6054f14da2922e87394ba71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubePrefabBorder: {fileID: 8655248178772779571, guid: 53d23bd642d7277468f0f114db1988ed,
+    type: 3}
+  cubePrefabMiddle: {fileID: 302465907377911846, guid: c4eb3dbb18faffe49b13131a62f2fb13,
+    type: 3}
+  terrainSize: 7
 --- !u!1 &1392020089
 GameObject:
   m_ObjectHideFlags: 0

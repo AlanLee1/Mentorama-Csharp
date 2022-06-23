@@ -55,3 +55,11 @@ Criar uma matriz onde suas bordas possuam uma altura fixa, e o meio com altura v
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module4)
 
 <img src="/Files/Module4/Game.gif" alt="project"/>
+
+## Módulo 5
+
+Quinta atividade do módulo:<br/>
+Utilizar a cena do módulo 4 e remover todos os cubos da posição do topo.<br/>
+[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module5)
+
+<img src="/Files/Module5/Game.gif" alt="project"/>
