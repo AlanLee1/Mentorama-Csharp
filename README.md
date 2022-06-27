@@ -19,26 +19,7 @@ Segunda atividade do módulo:<br/>
 Fazer um código com 3 valores e encontrar o maior valor.<br/>
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module2)
 
-```
-int a = 26;
-int b = 100;
-int c = 30;
-int maior = 0;
-
-if (a > b)
-{
-    maior = a;
-} else
-{
-    maior = b;
-}
-if (c > maior)
-{
-    maior = c;
-}
-
-Debug.Log(maior);
-```
+<img src="/Files/Module2/Code.png" alt="project"/>
 
 ## Módulo 3
 
@@ -63,3 +44,12 @@ Utilizar a cena do módulo 4 e remover todos os cubos da posição do topo.<br/>
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module5)
 
 <img src="/Files/Module5/Game.gif" alt="project"/>
+
+## Módulo 6
+
+Sexta atividade do módulo:<br/>
+Colocar estado da patrulha onde entre um movimento e outro ficar parado por um tempo;<br/> 
+adicionar uma lista de patrulhas, onde ao clicar espaço, alterne entre elas.<br/>
+[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module6)
+
+<img src="/Files/Module6/Game.gif" alt="project"/>
