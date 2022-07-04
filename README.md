@@ -19,7 +19,7 @@ Segunda atividade do módulo:<br/>
 Fazer um código com 3 valores e encontrar o maior valor.<br/>
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module2)
 
-<img src="/Files/Module2/Code.png" alt="project"/>
+<img src="/Files/Module2/Code.png" width="200" height="200" alt="project"/>
 
 ## Módulo 3
 
