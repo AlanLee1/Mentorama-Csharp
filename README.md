@@ -57,11 +57,18 @@ adicionar uma lista de patrulhas, onde ao clicar espaço, alterne entre elas.<br
 ## Módulo 7
 
 Sétima atividade do módulo:<br/>
-Criar a armadura para o Player, aplicando suas funções em paralelo ao ataque;<br/>
+Criar uma classe armadura para o Player utilizar, aplicando suas funções em paralelo ao ataque;<br/>
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module7)
 
 | Armor | Character Armor | Character Deal Damage |
 | :----: | :----: | :----: |
 | <img src="/Files/Module7/Code_Armor.png" width="200" height="200" alt="project"/> | <img src="/Files/Module7/Code_Character_Armor.png" width="200" height="200" alt="project"/> | <img src="/Files/Module7/Code_Character_DealDamage.png" width="200" height="200" alt="project"/> |
 
+## Módulo 8
 
+Sexta atividade do módulo:<br/>
+Criar um componente "Character Controller" que liga ao "Move";<br/>
+Extender o "Character" para outra classe. ex: "ork", "elfo".<br/>
+[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module8)
+
+<img src="/Files/Module8/Game.gif" alt="project"/>
