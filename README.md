@@ -53,3 +53,15 @@ adicionar uma lista de patrulhas, onde ao clicar espaço, alterne entre elas.<br
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module6)
 
 <img src="/Files/Module6/Game.gif" alt="project"/>
+
+## Módulo 7
+
+Sétima atividade do módulo:<br/>
+Criar a armadura para o Player, aplicando suas funções em paralelo ao ataque;<br/>
+[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module7)
+
+<img src="/Files/Module7/Code_Armor.png" alt="project"/>
+<img src="/Files/Module7/Code_Character_Armor.png" alt="project"/>
+<img src="/Files/Module7/Code_Character_DealDamage.png" alt="project"/>
+
+
