@@ -1,14 +1,15 @@
 using UnityEngine;
 
-public class Module7_Character
+public class Module8_Character
 {
+
     public string Name { get; private set; }
     public int Life { get; private set; }
-    public Module7_Weapon Weapon { get; private set; }
+    public Module8_Weapon Weapon { get; private set; }
     public Module7_Armor Armor { get; private set; }
     public bool IsAlive { get => Life > 0; }
 
-    public Module7_Character(string name, int life, Module7_Weapon weapon, Module7_Armor armor)
+    public Module8_Character(string name, int life, Module8_Weapon weapon, Module7_Armor armor)
     {
         Name = name;
         Life = life;
@@ -17,9 +18,8 @@ public class Module7_Character
     }
 
     //ataca o inimigo
-    public void Attack(Module7_Character enemy)
+    public void Attack(Module8_Character enemy)
     {
-
         if (!CheckAlive()) return;
 
         if (!enemy.IsAlive)
@@ -30,7 +30,7 @@ public class Module7_Character
 
         if (!HasWeapon()) return;
         Debug.Log($"{Name} atacou {enemy.Name} com sua {Weapon.Name}.");
-        enemy.DealDamage(Weapon.Damage);
+        enemy.DealDamage(Weapon.Swing());
     }
 
     //afia arma
@@ -54,7 +54,7 @@ public class Module7_Character
     }
 
     //equipa arma
-    public void EquipWeapon(Module7_Weapon weapon)
+    public void EquipWeapon(Module8_Weapon weapon)
     {
         if (!CheckAlive()) return;
         if (Weapon != null)
@@ -66,7 +66,6 @@ public class Module7_Character
             Debug.Log($"{Name} equipou uma {Weapon.Name} (Dano: {Weapon.Damage} - Rank: {Weapon.Rank}).");
         }
     }
-
 
     //desequipa armadura
     public void UnequipArmor()
@@ -109,7 +108,7 @@ public class Module7_Character
             int armorProtect = Armor == null ? 0 : Armor.Protection;
 
             Debug.Log($"{Name} levou {damage} de dano. \n" +
-            $"Vida atual de {Name}: {Life}" +
+            $"Vida atual de {Name}: {Life} - " +
             $"Proteção atual de: {armorProtect}");
 
         } else
@@ -150,6 +149,4 @@ public class Module7_Character
         }
         return Armor != null;
     }
-
-
 }

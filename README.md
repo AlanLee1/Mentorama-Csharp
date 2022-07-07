@@ -71,4 +71,7 @@ Criar um componente "Character Controller" que liga ao "Move";<br/>
 Extender o "Character" para outra classe. ex: "ork", "elfo".<br/>
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module8)
 
-<img src="/Files/Module8/Game.gif" alt="project"/>
+| Ork | Elf |
+| :----: | :----: |
+| <img src="/Files/Module8/Ork.png" alt="project"/> | <img src="/Files/Module8/Elf.png" alt="project"/> |
+

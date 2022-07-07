@@ -1,24 +1,28 @@
-Ôªøusing UnityEngine;
-public class Module7_Weapon
+using UnityEngine;
+
+//classe abstrata n„o pode ser instanciada.
+//ela serve como modelo para ser herdada por outras classes
+public abstract class Module8_Weapon
 {
     public string Name { get; private set; }
-    public int Damage { get; private set; }
+    public int Damage { get; set; }
     public char Rank { get; private set; }
 
-    public Module7_Weapon(string name, int damage)
+    public Module8_Weapon(string name, int damage)
     {
         Name = name;
         Damage = damage;
         Rank = GetRank(damage);
     }
 
-    public void Sharpen()
+    //virtual È utilizado para permitir que pode ser alterada por uma classe derivada
+    public virtual void Sharpen()
     {
-        var newRank = Module7_Weapon.GetRank(Damage);
+        var newRank = Module8_Weapon.GetRank(Damage);
 
         if (Damage == 10)
         {
-            Debug.Log($"Sua {Name} j√° esta no maior dano.");
+            Debug.Log($"Sua {Name} j· esta no maior dano.");
         } else
         {
             Damage++;
@@ -32,6 +36,8 @@ public class Module7_Weapon
             Debug.Log($"Rank da {Name} aumentou para {Rank}!");
         }
     }
+
+    public abstract int Swing();
 
     public static char GetRank(int damage)
     {
