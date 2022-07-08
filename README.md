@@ -75,3 +75,12 @@ Extender o "Character" para outra classe. ex: "ork", "elfo".<br/>
 | :----: | :----: | :----: |
 | <img src="/Files/Module8/Ork.png" alt="project"/> | <img src="/Files/Module8/Elf.png" alt="project"/> | <img src="/Files/Module8/Character.png" alt="project"/> |
 
+## Módulo 9
+
+Nona atividade do módulo:<br/>
+Criar um evento para quando o player morre, exibindo as informações em um UI (User Interface);<br/>
+[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module9)
+
+| Aula | Atividade |
+| :----: | :----: |
+| <img src="/Files/Module9/Aula/Game.gif" alt="project"/> | <img src="/Files/Module9/Atividade/Game.gif" alt="project"/> |
