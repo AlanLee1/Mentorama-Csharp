@@ -84,3 +84,7 @@ Criar um evento para quando o player morre, exibindo as informações em um UI (
 | Aula | Atividade |
 | :----: | :----: |
 | <img src="/Files/Module9/Aula/Game.gif" alt="project"/> | <img src="/Files/Module9/Atividade/Game.gif" alt="project"/> |
+
+## Módulo 9
+
+Nona atividade do módulo:<br/>
