@@ -18,23 +18,23 @@ public class CharacterController : MonoBehaviour
 
     private void Moviment()
     {
+        MoveComponent.Direction = Vector3.zero;
+
         if (Input.GetKey(KeyCode.W))
         {
-            MoveComponent.Translate(Vector3.forward * MoveComponent.Speed * Time.deltaTime);
+            MoveComponent.Direction += Vector3.forward;
         }
         if (Input.GetKey(KeyCode.S))
         {
-            MoveComponent.Translate(Vector3.back * MoveComponent.Speed * Time.deltaTime);
+            MoveComponent.Direction += Vector3.back;
         }
         if (Input.GetKey(KeyCode.A))
         {
-            MoveComponent.Translate(Vector3.left * MoveComponent.Speed * Time.deltaTime);
+            MoveComponent.Direction += Vector3.left;
         }
         if (Input.GetKey(KeyCode.D))
         {
-            MoveComponent.Translate(Vector3.right * MoveComponent.Speed * Time.deltaTime);
+            MoveComponent.Direction += Vector3.right;
         }
-
     }
-
 }

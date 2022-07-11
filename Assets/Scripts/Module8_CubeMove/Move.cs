@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-
     public Move(float speed, Vector3 direction)
     {
         Speed = speed;

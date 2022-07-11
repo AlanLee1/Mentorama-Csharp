@@ -85,6 +85,19 @@ Criar um evento para quando o player morre, exibindo as informações em um UI (
 | :----: | :----: |
 | <img src="/Files/Module9/Aula/Game.gif" alt="project"/> | <img src="/Files/Module9/Atividade/Game.gif" alt="project"/> |
 
-## Módulo 9
+## Módulo 10
 
-Nona atividade do módulo:<br/>
+Décima atividade do módulo:<br/>
+
+## Módulo 11
+
+Décima primeira atividade do módulo:<br/>
+Jogar o game de git: https://learngitbranching.js.org/?locale=pt_BR
+Criar uma conta no github e criar um respositório com template do unity.
+
+| Main | Remote |
+| :----: | :----: |
+| <img src="/Files/Module11/Main.png" alt="project"/> | <img src="/Files/Module11/Remote.png" alt="project"/> |
+
+Repositório: https://github.com/AlanLee1/Mentorama-Csharp
+
