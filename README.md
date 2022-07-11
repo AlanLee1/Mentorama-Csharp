@@ -92,12 +92,12 @@ Décima atividade do módulo:<br/>
 ## Módulo 11
 
 Décima primeira atividade do módulo:<br/>
-Jogar o game de git: https://learngitbranching.js.org/?locale=pt_BR
+Jogar o game de git: https://learngitbranching.js.org/?locale=pt_BR<br/>
 Criar uma conta no github e criar um respositório com template do unity.
 
 | Main | Remote |
 | :----: | :----: |
-| <img src="/Files/Module11/Main.png" alt="project"/> | <img src="/Files/Module11/Remote.png" alt="project"/> |
+| <img src="/Files/Module11/Main.PNG" alt="project"/> | <img src="/Files/Module11/Remote.PNG" alt="project"/> |
 
 Repositório: https://github.com/AlanLee1/Mentorama-Csharp
 
