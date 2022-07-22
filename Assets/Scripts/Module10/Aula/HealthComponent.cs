@@ -14,16 +14,12 @@ public class HealthComponent : MonoBehaviour
 
     public void Initialize(int max, int current)
     {
-
-    }
-
-    void Start()
-    {
-
+        MaxHealth = max;
+        CurrentHealth = current;
     }
 
     void Update()
     {
-
+        //Debug.Log($"{name}: {CurrentHealth}/{MaxHealth}");
     }
 }

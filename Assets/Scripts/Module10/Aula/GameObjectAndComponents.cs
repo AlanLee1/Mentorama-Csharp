@@ -2,13 +2,21 @@ using UnityEngine;
 
 public class GameObjectAndComponents : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public GameObject GameObjectPrefab;
+    public HealthComponent HealthComponentPrefab;
+
     void Start()
     {
-        //Encontrando GameObjects (somente ativos)
+        //Encontrando Game Objects (somente ativos)
+        //encontrar o objeto pelo nome do objeto
         GameObject scriptsObject = GameObject.Find("Scripts");
+        //encontrar o objeto pela TAG
         GameObject cubeObject = GameObject.FindWithTag("Cube");
+        //encontrar todos objetos pela TAG
         GameObject[] sphereObjects = GameObject.FindGameObjectsWithTag("Sphere");
+
+        //Objeto do proprio script vinculado
 
         bool hasCubeTag = this.gameObject.CompareTag("Cube");
         hasCubeTag = cubeObject.CompareTag("Cube");
@@ -30,12 +38,22 @@ public class GameObjectAndComponents : MonoBehaviour
         cubeHealthComponent.CurrentHealth = 10;
 
         HealthComponent myHealthComponent = this.gameObject.GetComponent<HealthComponent>();
-        myHealthComponent.CurrentHealth = 10; //Null ref
+        // myHealthComponent.CurrentHealth = 10; //Null ref
 
-        if (this.gameObject.TryGetComponent<HealthComponent>(out var healthComponent2))
+
+        //verifica se o componente existe, se não crie
+        if (cubeObject.TryGetComponent<HealthComponent>(out var healthComponent2))
         {
             healthComponent2.MaxHealth = 12;
         }
+
+        //Setup
+        var allSpheresObject = GameObject.Find("AllSpheres");
+        var lastActiveSphere = sphereObjects[sphereObjects.Length - 1]; //sphere (3)
+
+        //Components em filhos e parentes. Caso queira pegar os objetos desativados, colocar true
+        HealthComponent componentInChildren = allSpheresObject.GetComponentInChildren<HealthComponent>(false); //default false
+        HealthComponent componentInParent = lastActiveSphere.GetComponentInParent<HealthComponent>(false);
 
 
 
