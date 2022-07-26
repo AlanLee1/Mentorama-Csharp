@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using UnityEngine;
 
 /// <summary>
@@ -17,6 +13,7 @@ using UnityEngine;
 ///	mouse			- free look / rotation
 ///     
 /// </summary>
+[AddComponentMenu("Free Fly")]
 public class FreeFly : MonoBehaviour
 {
     /// <summary>

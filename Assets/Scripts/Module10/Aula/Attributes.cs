@@ -26,8 +26,8 @@ public class Attributes : MonoBehaviour
     //==============
 
     [Header("Control Attributes")]
-    [Range(1f, 3f), SerializeField] private float RangeValue;
-    [Min(10), SerializeField] public int MinValue;
+    //[Range(1f, 3f), SerializeField] private float RangeValue;
+    //[Min(10), SerializeField] public int MinValue;
 
     [Header("List")]
     [NonReorderable] public int[] Numbers = new int[] { 1, 2, 3, 4, 5 };
@@ -68,8 +68,8 @@ public class Attributes : MonoBehaviour
     void NewThing()
     {
         Field = 2;
-        MinValue = 13;
-        RangeValue = 2;
+        //MinValue = 13;
+        //RangeValue = 2;
     }
 
 
