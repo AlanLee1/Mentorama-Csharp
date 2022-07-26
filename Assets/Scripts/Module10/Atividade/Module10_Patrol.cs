@@ -22,7 +22,7 @@ public class Module10_Patrol : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         PatrolMovimentDirection(patrol);
 
