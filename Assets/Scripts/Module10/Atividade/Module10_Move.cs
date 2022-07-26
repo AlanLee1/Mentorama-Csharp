@@ -14,7 +14,7 @@ public class Module10_Move : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Translate(Direction * Speed * Boost * Time.deltaTime);
+        Translate(Direction * Speed * Boost * Time.fixedDeltaTime);
     }
 
     //movement player
