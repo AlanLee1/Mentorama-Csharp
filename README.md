@@ -110,5 +110,9 @@ Repositório: https://github.com/AlanLee1/Mentorama-Csharp
 Décima segunda atividade do módulo:<br/>
 Adicionar pontuação ao pegar os fantasmas, 200-400-600-800.
 
+| Main | Remote |
+| :----: | :----: |
+| <img src="/Files/Module12/GhostCollectible.png" alt="project"/> | <img src="/Files/Module12/ScoreManager.png" alt="project"/> |
+
 <img src="/Files/Module12/Game.PNG" alt="project"/>
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module12)
