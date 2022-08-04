@@ -6,13 +6,14 @@ public class Module10_Patrol : MonoBehaviour
 {
     [SerializeField] private List<Module10_PatrolData> listPatrols = new List<Module10_PatrolData>();
     [SerializeField] private Module10_Move _moveComponent;
-    [SerializeField] int patrol;
-    [SerializeField] Text texto;
+    [SerializeField] private int patrol;
+    [SerializeField] private Text texto;
 
 
     void Start()
     {
         patrol = 0;
+        texto.GetComponent<Text>().text = $"{patrol}";
         listPatrols.Add(new Module10_PatrolData() { CheckPoint = 1, MoveSpeed = 6, Boost = 1, MoveDirection = Vector3.forward });
         listPatrols.Add(new Module10_PatrolData() { CheckPoint = 2, MoveSpeed = 6, Boost = 1.5f, MoveDirection = Vector3.left });
         listPatrols.Add(new Module10_PatrolData() { CheckPoint = 3, MoveSpeed = 6, Boost = 1.5f, MoveDirection = Vector3.forward });
@@ -22,18 +23,15 @@ public class Module10_Patrol : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         PatrolMovimentDirection(patrol);
-
-        texto.GetComponent<Text>().text = $"{patrol}";
-
     }
 
     void OnCollisionEnter(Collision collision)
     {
         //Colisao com o checkpoint
-        if (collision.collider.tag == "CheckPoint")
+        if (collision.collider.CompareTag("CheckPoint"))
         {
             if (patrol < 5)
             {
@@ -42,6 +40,7 @@ public class Module10_Patrol : MonoBehaviour
             {
                 patrol = 0;
             }
+            texto.GetComponent<Text>().text = $"{patrol}";
         }
     }
 

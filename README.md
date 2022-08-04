@@ -108,13 +108,7 @@ Repositório: https://github.com/AlanLee1/Mentorama-Csharp
 ## Módulo 12
 
 Décima segunda atividade do módulo:<br/>
-<!-- 
-Jogar o game de git: https://learngitbranching.js.org/?locale=pt_BR<br/>
-Criar uma conta no github e criar um respositório com template do unity.
+Adicionar pontuação ao pegar os fantasmas, 200-400-600-800.
 
-| Main | Remote |
-| :----: | :----: |
-| <img src="/Files/Module11/Main.PNG" alt="project"/> | <img src="/Files/Module11/Remote.PNG" alt="project"/> |
-
-Repositório: https://github.com/AlanLee1/Mentorama-Csharp
--->
+<img src="/Files/Module12/Game.PNG" alt="project"/>
+[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module12)
