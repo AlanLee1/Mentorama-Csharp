@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Module8_Character
 {
-
     public string Name { get; private set; }
     public int Life { get; private set; }
     public Module8_Weapon Weapon { get; private set; }

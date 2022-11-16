@@ -116,3 +116,15 @@ Adicionar pontuação ao pegar os fantasmas, 200-400-600-800.
 
 <img src="/Files/Module12/Game.gif" alt="project"/>
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module12)
+
+## Módulo 13
+
+Décima terceira atividade do módulo:<br/>
+Aplicar o conceito de interface na implementação do método de Sharpen na arma(adaga e espada)
+
+| GhostCollectible | ScoreManager |
+| :----: | :----: |
+| <img src="/Files/Module13/Sharpen.png" width="350" height="350" alt="project"/> | <img src="/Files/Module13/ScoreManager.png" width="350" height="350" alt="project"/> |
+
+<img src="/Files/Module13/Game.gif" alt="project"/>
+[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Csharp/tree/main/Files/Module13)
